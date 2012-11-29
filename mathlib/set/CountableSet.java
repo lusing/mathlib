@@ -16,4 +16,10 @@ public class CountableSet extends Set {
 	public boolean isIn(Element e) {
 		return false;
 	}
+
+	@Override
+	public boolean isSubset(Set b) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

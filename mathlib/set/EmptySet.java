@@ -17,4 +17,13 @@ public class EmptySet extends Set {
 	public boolean isIn(Element e) {
 		return false;
 	}
+
+	/*
+	 * Empty Set is subset of any set
+	 * @see mathlib.set.Set#isSubset(mathlib.set.Set)
+	 */
+	@Override
+	public boolean isSubset(Set b) {
+		return true;
+	}
 }

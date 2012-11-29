@@ -8,4 +8,5 @@ public abstract class Set {
 	}
 	
 	public abstract boolean isIn(Element e);
+	public abstract boolean isSubset(Set b);
 }
