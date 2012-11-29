@@ -1,7 +1,7 @@
 package mathlib.set;
 
 public class CountableSet extends Set {
-	private long count = 0;
+	protected long count = 0;
 
 	@Override
 	public CardinalNumber getCard() {
