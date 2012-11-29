@@ -6,4 +6,6 @@ public abstract class Set {
 	public static CardinalNumber card(Set a){
 		return a.getCard();
 	}
+	
+	public abstract boolean isIn(Element e);
 }

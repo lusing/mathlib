@@ -7,4 +7,13 @@ public class CountableSet extends Set {
 	public CardinalNumber getCard() {
 		return new CardinalNumber(count);
 	}
+
+	/*
+	 * We need to check the buffer to find whether the element is in the set or not
+	 * @see mathlib.set.Set#isIn(mathlib.set.Element)
+	 */
+	@Override
+	public boolean isIn(Element e) {
+		return false;
+	}
 }
