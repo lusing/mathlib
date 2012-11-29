@@ -26,4 +26,27 @@ public class EmptySet extends Set {
 	public boolean isSubset(Set b) {
 		return true;
 	}
+
+	@Override
+	public Set getUnion(Set b) {
+		return b;
+	}
+
+	@Override
+	public Set getIntersection(Set b) {
+		// TODO Auto-generated method stub
+		return this;
+	}
+
+	@Override
+	public Set getDifference(Set b) {
+		// TODO Auto-generated method stub
+		return this;
+	}
+
+	@Override
+	public Set getPowerSet() {
+		// TODO Auto-generated method stub
+		return this;
+	}
 }

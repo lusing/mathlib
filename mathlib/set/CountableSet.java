@@ -22,4 +22,28 @@ public class CountableSet extends Set {
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+	@Override
+	public Set getUnion(Set b) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set getIntersection(Set b) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set getDifference(Set b) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set getPowerSet() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

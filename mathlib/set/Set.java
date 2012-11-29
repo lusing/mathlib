@@ -20,4 +20,25 @@ public abstract class Set {
 	public static boolean isIn(Element e, Set a){
 		return a.isIn(e);
 	}
+	
+	public abstract Set getUnion(Set b);
+	public abstract Set getIntersection(Set b);
+	public abstract Set getDifference(Set b);
+	public Set getSymmetricDifference(Set b){
+		return difference(union(this,b),intersection(this,b));
+	}
+	
+	public abstract Set getPowerSet();
+	
+	public static Set union(Set a, Set b){
+		return a.getUnion(b);
+	}
+	
+	public static Set intersection(Set a, Set b){
+		return a.getIntersection(b);
+	}
+	
+	public static Set difference(Set a, Set b){
+		return a.getDifference(b);
+	}
 }
