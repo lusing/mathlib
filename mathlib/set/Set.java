@@ -41,4 +41,11 @@ public abstract class Set {
 	public static Set difference(Set a, Set b){
 		return a.getDifference(b);
 	}
+	
+	/*
+	 * A*B, Cartesian Product
+	 */
+	public Set getCartesianProduct(Set b){
+		return null;
+	}
 }
