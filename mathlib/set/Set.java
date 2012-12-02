@@ -49,4 +49,9 @@ public abstract class Set {
 	public CartesianProduct getCartesianProduct(Set b){
 		return null;
 	}
+	
+	//Normal operations
+	public boolean add(Element e){
+		return false;
+	}
 }
