@@ -1,17 +1,17 @@
 package mathlib.set;
 
-public class EquivalenceRelation extends BinaryRelation {
+public class PartialOrder extends BinaryRelation {
 	public boolean isReflexivity(){
 		return true;
 	}
 	public boolean isSymmetry(){
-		return true;
+		return false;
 	}
 	public boolean isTransitivity(){
 		return true;
 	}
 	@Override
 	public boolean isAntiSymmetry() {
-		return false;
+		return true;
 	}
 }

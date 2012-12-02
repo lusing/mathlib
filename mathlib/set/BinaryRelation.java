@@ -1,13 +1,8 @@
 package mathlib.set;
 
-public class BinaryRelation extends CartesianProduct {
-	public boolean isReflexivity(){
-		return false;
-	}
-	public boolean isSymmetry(){
-		return false;
-	}
-	public boolean isTransitivity(){
-		return false;
-	}
+public abstract class BinaryRelation extends CartesianProduct {
+	public abstract boolean isReflexivity();
+	public abstract boolean isSymmetry();
+	public abstract boolean isAntiSymmetry();
+	public abstract boolean isTransitivity();
 }
