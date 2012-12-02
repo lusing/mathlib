@@ -1,6 +1,7 @@
 package mathlib.set;
 
 public abstract class Set {
+	//Maths functions
 	public abstract CardinalNumber getCard();
 	
 	public static CardinalNumber card(Set a){
@@ -45,7 +46,7 @@ public abstract class Set {
 	/*
 	 * A*B, Cartesian Product
 	 */
-	public Set getCartesianProduct(Set b){
+	public CartesianProduct getCartesianProduct(Set b){
 		return null;
 	}
 }
